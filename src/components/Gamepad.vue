@@ -221,13 +221,13 @@
         pushButtonList = [];
         
         if (controller.buttons[0].pressed) {
-            pushButtonList.push('B')
+            pushButtonList.push('Y')
         }
         if (controller.buttons[1].pressed) {
-            pushButtonList.push('A')
+            pushButtonList.push('B')
         }
         if (controller.buttons[2].pressed) {
-            pushButtonList.push('Y')
+            pushButtonList.push('A')
         }
         if (controller.buttons[3].pressed) {
             pushButtonList.push('X')
@@ -251,12 +251,11 @@
             pushButtonList.push('PLUS')
         }
         if (controller.buttons[12].pressed) {
-            pushButtonList.push('UP')
+            pushButtonList.push('HOME')
         }
         if (controller.buttons[13].pressed) {
-            pushButtonList.push('DOWN')
+            pushButtonList.push('CAPTURE')
         }
-        console.log(controller.buttons);
         /*
         if (controller.buttons[14].pressed) {
             pushButtonList.push('LEFT')
