@@ -256,9 +256,12 @@
         if (controller.buttons[13].pressed) {
             pushButtonList.push('DOWN')
         }
+        console.log(controller.buttons);
+        /*
         if (controller.buttons[14].pressed) {
             pushButtonList.push('LEFT')
         }
+        
         if (controller.buttons[15].pressed) {
             pushButtonList.push('RIGHT')
         }
@@ -268,7 +271,7 @@
         if (controller.buttons[17].pressed) {
             pushButtonList.push('CAPTURE')
         }
-        
+        */
         knotchLevel = controller.axes[1]
 
         if (is_debug) {
