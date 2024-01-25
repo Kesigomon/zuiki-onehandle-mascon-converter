@@ -4,7 +4,7 @@
     import { invoke } from "@tauri-apps/api/tauri";
     import { ref } from 'vue';
 
-    let allowGamepad = "One Handle MasCon for Nintendo Switch"
+    let allowGamepad = "One Handle MasCon for Nintendo Switch Exclusive Edition"
     let controller = [];
     let nIntervId;
     let pushButtonList = [];
